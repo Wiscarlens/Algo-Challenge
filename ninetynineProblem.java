@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/*
+	* Problem: https://open.kattis.com/problems/ninetynine
+*/
+
 public class ninetynineProblem {
 
 	public static void main(String[] args) {

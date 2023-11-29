@@ -4,20 +4,30 @@
 
 import java.util.Scanner;
 
+/*
+ * Problem: https://open.kattis.com/problems/reversebinary
+
+ * Your task will be to write a program for reversing numbers in binary.
+ * For instance, the binary representation of 13 is 1101, and reversing
+ * it gives 1011, which corresponds to number 11.
+ *
+ * */
+
+
 public class reversedBinaryNumb {
     public static void main(String[] args) {
 
         // Variable declaration
         int number;
-        Byte counter = 0;
-        int binary[] = new int [100];
-        int reverseBinary = 0;
+        byte counter = 0;
+        int[] binary = new int [100];
+        int reverseBinary;
         String temp = "";
 
-        Scanner scnr = new Scanner (System.in);
+        Scanner scanner = new Scanner (System.in);
 
         // Request input from the user
-        number = scnr.nextInt();
+        number = scanner.nextInt();
 
         // Convert input into reserve binary value
         while (number != 0)
@@ -44,9 +54,4 @@ public class reversedBinaryNumb {
     }
 }
 
-/*
- * Your task will be to write a program for reversing numbers in binary.
- * For instance, the binary representation of 13 is 1101, and reversing
- * it gives 1011, which corresponds to number 11.
- *
- * */
+
