@@ -1,4 +1,4 @@
-// Author: Wiscarlens Lucius
+package Source.Java;// Author: Wiscarlens Lucius
 // Date: 9/4/2022
 // Project:  Reversed Binary Number
 
